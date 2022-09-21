@@ -10,4 +10,3 @@ elif num >= 3000 and num <= 4000:
     print('O número está entre 3000 e 4000')
 else:
     print('O número não pertence a nenhum grupo')
-   
