@@ -4,7 +4,7 @@ cont = 1
 maior = 0
 menor = 999999999999999999999999999
 
-while cont <= 50:
+while cont <= 5:
     num = float(input('Digite um número: '))
     if num > maior:
         maior = num
