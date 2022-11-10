@@ -9,14 +9,18 @@ while cont <= 5:
     num = int(input('Digite um valor: '))
     if num < 0 and num > 80:
         print('O valor digitado tem que ser entre 0 e 80')
-        continue
-    if num % 2 == 0:
-        par += 1
-    if num % 2 == 1:
-        impar += 1
+    else:
+        if num % 2 == 0:
+            par += 1
+        if num % 2 == 1:
+            impar += 1
 
-    cont += 1
+        cont += 1
 
 print(f'Pares: {par}')
 print(f'Impares: {impar}')
+
+
+
+
 

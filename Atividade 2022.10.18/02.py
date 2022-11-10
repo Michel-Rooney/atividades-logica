@@ -9,7 +9,7 @@ while cont <= 5:
     nome = str(input('Digite seu nome: '))
     idade = int(input(f'Digite a idade de {nome}: '))
 
-    if idade < 0 and idade > 120:
+    if idade < 0 or idade > 120:
         print('Idade inválida')
         continue
     if idade > maior:
